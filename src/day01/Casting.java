@@ -48,6 +48,6 @@ public class Casting {
 
         int g = 24;
         double result = g / 5;
-        System.out.println(result);
+        System.out.println((double)result);
     }
 }
