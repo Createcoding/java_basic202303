@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2847eb5d-bec4-4a05-b9e6-2ce9559ad394" name="변경" comment="캐스팅">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Casting.java" afterDir="false" />
-    </list>
+    <list default="true" id="2847eb5d-bec4-4a05-b9e6-2ce9559ad394" name="변경" comment="캐스팅 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679885879555</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="캐스팅 수정">
+      <created>1679892305105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679892305105</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +188,8 @@
     <MESSAGE value="initial commitdsad" />
     <MESSAGE value="Merge branch 'master' into academydddss" />
     <MESSAGE value="캐스팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="캐스팅" />
+    <MESSAGE value="캐스팅 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="캐스팅 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
