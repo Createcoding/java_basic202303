@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a5f096-3d2f-4f63-929d-df970a99ec64" name="변경" comment="" />
+    <list default="true" id="01a5f096-3d2f-4f63-929d-df970a99ec64" name="변경" comment="Merge branch 'master' into academydddss">
+      <change beforePath="$PROJECT_DIR$/src/day01/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Scope.java" afterDir="false" />
+    </list>
     <list id="c1c287a9-4feb-4821-b55f-02574b046c78" name="새 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679882448454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' into academydddss">
+      <created>1679882892278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679882892278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' into academydddss">
+      <created>1679882914868</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679882914868</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

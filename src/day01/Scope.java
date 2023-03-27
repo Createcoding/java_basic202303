@@ -8,6 +8,17 @@ public class Scope {
         int n1 = 10;
         int n2 = 10;    // main블록에서 생성된 변수
 
+        if(true){
+            int n3 = n1 + n2;
+            System.out.println(n3);
+        } //end if
 
-    }
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        } // end for
+
+       // int n4 = i + 10;
+
+
+    }   //end main
 }
