@@ -19,6 +19,7 @@ public class ArrayPuush퀴즈해설 {
     public static void main(String[] args) {
         System.out.println("# 먹고싶은 음식을 입력하세요!!");
         System.out.println("# 입력을 중지하려면 <그만>을 입력하세요!!");
+        // 빈 원본배열 생성
         String[] foodList = new String[0];
         Scanner sc = new Scanner(System.in);
         while (true){
@@ -26,7 +27,7 @@ public class ArrayPuush퀴즈해설 {
             String newFood = sc.nextLine();
             if(newFood.equals("그만")) break;
 
-            // 빈 새배열 생성해서 (그곳에 입력값을 받음)
+            // 빈 사본배열 생성해서(원본배열+1) (그곳에 입력값을 받음)
             String[] temp = new String[foodList.length + 1];
             for (int i = 0; i < foodList.length; i++) {
                 temp[i] = foodList[i];
