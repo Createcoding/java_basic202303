@@ -29,12 +29,10 @@ public class MethodQuiz {
             return -1;
     }
     static void remove(String removeFood){
+        String temp[] = new String[foods.length-1];
+
 
     }
-
-
-
-
 
     public static void main(String[] args) {
           printFoods();  // 3개출력
