@@ -4,25 +4,10 @@ public class Test {
 
     public static void main(String[] args) {
 
-
-
-
-
-        Member m1 = new Member(1,"abc@def.com",
-                "1234","콩벌레",
-                Gender.MALE, 50);
-
-        Member m2 = new Member(2,"xxx@zzz.com",
-                "9999","팥죽이",
-                Gender.FEMALE, 30);
-
-        //        System.out.println(m1.inform());
-//        System.out.println(m2.inform());
-
         MemberRepository mr = new MemberRepository();
 
 
-        Member thief = new Member(4, "uuu@zzz.com",
+        Member thief = new Member(4, "uuu@eee.com",
                 "3243", "밥도둑",
                 Gender.MALE, 22);
 
@@ -31,8 +16,28 @@ public class Test {
 
         mr.showMembers();
 
-        boolean flag = mr.isDuplicateEmail("xx@zzz.com");
-        System.out.println("flag = " +flag);
+        boolean flag = mr.isDuplicateEmail("uuu@eee.com");
+        System.out.println("flag = " + flag);
+
+        // 수정 테스트
+        String targetEmail = "hhh@qwe.com";
+        boolean updateFlag
+                = mr.changePassword(targetEmail, "8888");
+
+        if (updateFlag) {
+            Member updateMember = mr.findByEmail(targetEmail);
+            System.out.println("updateMember = " + updateMember.password);
+        } else {
+            System.out.println("이메일이 잘못됨!");
+        }
+
+        System.out.println("==================");
+
+        mr.showMembers();
+        mr.removeMember("abc@def.com");
+        mr.removeMember("hhh@qwe.com");
+
+        mr.showMembers();
 
     }
 }
