@@ -20,5 +20,17 @@ public class A {
         m1();
         m2();
         m3();
+
+        new A();
+        new A(10);
+        new A("zzz");
+
+        B b = new B();
+        b.x1 = 1;
+
     }
+    A(int a){}
+    private A(String a){}
+
+
 }
