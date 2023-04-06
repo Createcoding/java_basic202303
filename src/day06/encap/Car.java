@@ -28,8 +28,6 @@ public class Car {
         // mile로 변환해서 줄수도있다.
         return this.speed;
     }
-
-
     // 엔진에 연료가 주입되는 기능
     private void inject() {
         System.out.println("연료가 주입됩니다.");

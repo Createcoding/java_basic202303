@@ -1,6 +1,6 @@
 package day05.member;
 
-// 역할: 회원 저장소 역할
+// 역할: 여러명 회원 저장소 역할
 public class MemberRepository {
 
     public static final int NOT_FOUND = -1;

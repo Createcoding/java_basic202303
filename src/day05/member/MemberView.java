@@ -94,7 +94,6 @@ public class MemberView {
 
 
     }
-
     // 비밀번호 변경 입출력 처리
     void changePasswordViewProcess() {
 
@@ -126,17 +125,16 @@ public class MemberView {
         System.out.print(message);
         return sc.nextLine();
     }
-
     // 엔터를 누르기전까지 멈추는 기능
     void stop() {
         System.out.println("\n======= 엔터를 눌러서 계속...======");
         sc.nextLine();
     }
-
     // 회원 등록 입력 처리
     void signUp() {
         System.out.println("\n# 회원 등록을 시작합니다!!");
 
+        // 중복확인
         String email;
         while (true) {
             email = input("# 이메일: ");
@@ -145,6 +143,7 @@ public class MemberView {
             }
             System.out.println("# 중복된 이메일입니다 ㅋㅋ");
         }
+        // 회원등록
         String name = input("# 이름: ");
         String password = input("# 패스워드: ");
 
@@ -163,7 +162,6 @@ public class MemberView {
                     System.out.println("# 성별을 M/F로 정확히 입력하세요");
             }
         }
-
         int age = Integer.parseInt(input("# 나이: "));
 
         // 실제 저장 명령
